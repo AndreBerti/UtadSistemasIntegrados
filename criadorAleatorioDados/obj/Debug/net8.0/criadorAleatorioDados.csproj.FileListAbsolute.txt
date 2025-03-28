@@ -1,0 +1,14 @@
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\bin\Debug\net8.0\criadorAleatorioDados.exe
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\bin\Debug\net8.0\criadorAleatorioDados.deps.json
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\bin\Debug\net8.0\criadorAleatorioDados.runtimeconfig.json
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\bin\Debug\net8.0\criadorAleatorioDados.dll
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\bin\Debug\net8.0\criadorAleatorioDados.pdb
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.AssemblyInfo.cs
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.dll
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\refint\criadorAleatorioDados.dll
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.pdb
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\criadorAleatorioDados.genruntimeconfig.cache
+C:\Users\andre\Desktop\Trabalho UTAD\criadorAleatorioDados\obj\Debug\net8.0\ref\criadorAleatorioDados.dll
