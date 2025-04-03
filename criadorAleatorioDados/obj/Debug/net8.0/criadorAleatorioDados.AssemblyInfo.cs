@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("criadorAleatorioDados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b4829381809b9a8fb8298aac250df016c388c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b03c710639946286778ef53442e672f3b58dd03b")]
 [assembly: System.Reflection.AssemblyProductAttribute("criadorAleatorioDados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("criadorAleatorioDados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
