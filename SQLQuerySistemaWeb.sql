@@ -1,0 +1,94 @@
+----CRIANDO TABELA DE PEÇAS
+--create table Peca(
+--	Codigo char(8) primary key,
+--	Dia date,
+--	Hora time,
+--	Duracao int,
+--	Resultado varchar(30),
+--	Custo decimal(5,2),
+--	Prejuizo decimal (5,2),
+--	Lucro decimal(5,2)
+--)
+
+----RETORNAR TODOS OS USUáRIOS
+--create proc [dbo].[listar_pecas]
+--as
+--begin
+--	select codigo,dia,hora,duracao,resultado, custo, prejuizo, lucro from Peca
+--end
+
+----BUSCA POR ID
+--create proc [dbo].[listar_pecas_id](@Id char(8))
+--as
+--begin
+--	select codigo, dia, hora, duracao, resultado, custo, prejuizo, lucro from Peca where codigo=@Id
+--end
+
+----REMOVER PEÇA POR CODIGO
+--create proc [dbo].[remover_peca](@codigo char(8))
+--as
+--begin
+--	declare @contagem int = 0
+--	set @contagem = (select count(1) from Peca where Codigo=@codigo)
+--	if( @contagem>0)
+--		begin
+--			delete Peca
+--			where Codigo=@codigo
+--		end
+--end
+
+----ADICIONAR PEÇA
+--create proc [dbo].[inserir_peca](
+--	@Codigo char(8),
+--	@Dia date,
+--	@Hora time,
+--	@Duracao int,
+--	@Resultado varchar(30),
+--	@Custo decimal(5,2),
+--	@Prejuizo decimal(5,2),
+--	@Lucro decimal(5,2)
+--)
+--as
+--begin
+--	insert into Peca (Codigo, Dia, Hora, Duracao, Resultado,Custo, Prejuizo, Lucro)
+--	values (@Codigo, @Dia, @Hora, @Duracao, @Resultado,@Custo, @Prejuizo, @Lucro)
+	
+--end
+
+----EDITAR PEÇA
+--alter proc [DBO].[editar_peca](
+--	@Codigo char(8),
+--	@Dia date,
+--	@Hora time,
+--	@Duracao int,
+--	@Resultado varchar(30),
+--	@Custo decimal(5,2),
+--	@Prejuizo decimal(5,2),
+--	@Lucro decimal(5,2)
+--)
+--as
+--begin
+--	declare @contagem int=0
+--	set @contagem=(select count (1) from Peca where Codigo=@Codigo)
+--	if(@contagem>0)
+--		begin
+--			update Pecas
+--				set
+--					Dia=@Dia,
+--					Hora=@Hora,
+--					Duracao=@Duracao,
+--					Resultado=@Resultado,
+--					Custo=@Custo,
+--					Prejuizo=@Prejuizo,
+--					Lucro=@Lucro 
+--				where Codigo=@Codigo
+--		end
+--end
+
+
+--EXECUTANDO PROCEDURE
+--exec [dbo].[inserir_peca] 'AAAABBBB', '2023-10-11', '10:10:00', 30, 'OK', 12.20, 13.50, 35.80;
+--exec [dbo].[listar_pecas]
+--exec [dbo].[listar_pecas_id] 'AAAABBBB'
+--exec [dbo].[remover_peca] 'AAAABBBB'
+--exec [dbo].[editar_peca] 'AAAABBBB', '2020-11-11', '10:10:00', 30, 'OK', 12.20, 13.50, 35.80;

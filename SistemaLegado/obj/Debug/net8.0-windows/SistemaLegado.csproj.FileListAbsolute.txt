@@ -1,0 +1,17 @@
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\bin\Debug\net8.0-windows\SistemaLegado.exe
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\bin\Debug\net8.0-windows\SistemaLegado.deps.json
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\bin\Debug\net8.0-windows\SistemaLegado.runtimeconfig.json
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\bin\Debug\net8.0-windows\SistemaLegado.dll
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\bin\Debug\net8.0-windows\SistemaLegado.pdb
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.Form1.resources
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.AssemblyInfo.cs
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.sourcelink.json
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.dll
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\refint\SistemaLegado.dll
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.pdb
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\SistemaLegado.genruntimeconfig.cache
+C:\Users\andre\Desktop\Trabalho UTAD\SistemaLegado\obj\Debug\net8.0-windows\ref\SistemaLegado.dll
