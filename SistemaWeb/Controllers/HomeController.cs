@@ -1,30 +1,19 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SistemaWeb.Db;
-using SistemaWeb.Models; // Adicione esta linha para usar Peca
-
-namespace SistemaWeb.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly DbAccess _dbAccess;
-    public HomeController(DbAccess dbAccess)
-    {
-        _dbAccess = dbAccess;
-    }
-
     public IActionResult Index()
     {
+        return View(); // Retorna a view padrão (Index.cshtml) na pasta Views/Home
+    }
 
-        try
-        {
-            var pecas = _dbAccess.ListarPecas();
-            return View(pecas);
-        }
-        catch (Exception e)
-        {
-            TempData["MensagemErro"] = "Ocorreu um erro ao listar as peças: " + e.Message; 
-            return View(new List<Peca>()); 
-        }
+    public IActionResult About()
+    {
+        return View(); // Retorna a view About.cshtml na pasta Views/Home
+    }
+
+    public IActionResult Contact()
+    {
+        return View(); // Retorna a view Contact.cshtml na pasta Views/Home
     }
 }

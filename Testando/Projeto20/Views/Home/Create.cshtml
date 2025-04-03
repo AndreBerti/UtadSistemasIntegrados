@@ -1,0 +1,48 @@
+﻿@model Projeto20.Models.Produto
+
+<h1>Criar Produto</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Codigo" class="control-label"></label>
+        <input asp-for="Codigo" class="form-control" />
+        <span asp-validation-for="Codigo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Data" class="control-label"></label>
+        <input asp-for="Data" class="form-control" type="date" />
+        <span asp-validation-for="Data" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Hora" class="control-label"></label>
+        <input asp-for="Hora" class="form-control" type="time" />
+        <span asp-validation-for="Hora" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Duracao" class="control-label"></label>
+        <input asp-for="Duracao" class="form-control" />
+        <span asp-validation-for="Duracao" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Resultado" class="control-label"></label>
+        <input asp-for="Resultado" class="form-control" />
+        <span asp-validation-for="Resultado" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Custo" class="control-label"></label>
+        <input asp-for="Custo" class="form-control" />
+        <span asp-validation-for="Custo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Prejuizo" class="control-label"></label>
+        <input asp-for="Prejuizo" class="form-control" />
+        <span asp-validation-for="Prejuizo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Lucro" class="control-label"></label>
+        <input asp-for="Lucro" class="form-control" />
+        <span asp-validation-for="Lucro" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Criar</button>
+    <a href="@Url.Action("Index", "Produto")" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,24 @@
+﻿@model Projeto20.Models.Produto
+
+<h1>Excluir Produto</h1>
+
+<h4>Tem certeza que deseja excluir o produto @Model.Codigo?</h4>
+
+<div>
+    <h4>Detalhes do Produto</h4>
+    <p>
+        <strong>Data:</strong> @Model.Data.ToString("dd/MM/yyyy")<br />
+        <strong>Hora:</strong> @Model.Hora<br />
+        <strong>Duração:</strong> @Model.Duracao<br />
+        <strong>Resultado:</strong> @Model.Resultado<br />
+        <strong>Custo:</strong> @Model.Custo<br />
+        <strong>Prejuízo:</strong> @Model.Prejuizo<br />
+        <strong>Lucro:</strong> @Model.Lucro<br />
+    </p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Codigo" />
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a href="@Url.Action("Index", "Produto")" class="btn btn-secondary">Cancelar</a>
+</form>

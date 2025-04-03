@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\db\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:db\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\models\\enumresultados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\models\\valores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:models\\valores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D675DF0-45B8-4ADA-AB8B-34BA4162D592}|SistemaWeb.csproj|c:\\users\\andre\\desktop\\trabalho utad\\sistemaweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,38 +54,37 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:18:43.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T13:18:43.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCoAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T12:53:44.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T02:12:02.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Valores.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Models\\Valores.cs",
               "RelativeDocumentMoniker": "Models\\Valores.cs",
@@ -93,12 +92,11 @@
               "RelativeToolTip": "Models\\Valores.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAYwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:09:49.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T03:09:49.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnumResultados.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Models\\EnumResultados.cs",
               "RelativeDocumentMoniker": "Models\\EnumResultados.cs",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "Models\\EnumResultados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:04:04.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T03:04:04.368Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "Models\\Peca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T02:50:08.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T02:50:08.926Z"
             },
             {
               "$type": "Document",
@@ -130,20 +126,20 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-03T02:34:59.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DbAccess.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Db\\DbAccess.cs",
               "RelativeDocumentMoniker": "Db\\DbAccess.cs",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Trabalho UTAD\\SistemaWeb\\Db\\DbAccess.cs",
               "RelativeToolTip": "Db\\DbAccess.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T02:16:55.751Z",
               "EditorCaption": ""

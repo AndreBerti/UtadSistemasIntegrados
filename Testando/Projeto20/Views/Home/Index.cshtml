@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Projeto20.Models.Produto>
+
+<h1>Produtos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Duração</th>
+            <th>Resultado</th>
+            <th>Custo</th>
+            <th>Prejuízo</th>
+            <th>Lucro</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+                <tr>
+                    <td>@produto.Codigo</td>
+                    <td>@produto.Data.ToString("dd/MM/yyyy")</td>
+                    <td>@produto.Hora</td>
+                    <td>@produto.Duracao</td>
+                    <td>@produto.Resultado</td>
+                    <td>@produto.Custo</td>
+                    <td>@produto.Prejuizo</td>
+                    <td>@produto.Lucro</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Produto", new { id = produto.Codigo })" class="btn btn-primary">Editar</a>
+                        <a href="@Url.Action("Delete", "Produto", new { id = produto.Codigo })" class="btn btn-danger">Excluir</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "Produto")" class="btn btn-success">Adicionar Novo Produto</a>
